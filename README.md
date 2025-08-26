@@ -127,3 +127,11 @@ def adaline(weight,df,alpha,epoch):
       epoch_1 +=1
   return [b,weight]
 ```
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+link to colab notebook
+
+```
+https://colab.research.google.com/drive/1tQjbt_cEjsS396_0-3MhQtCw53YoxgwX?usp=sharing
+```
