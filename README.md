@@ -97,7 +97,7 @@ def perceptron(weight,df,alpha,epoch):
       else:
         weight = weight + (alpha*target*X)
         b=b+(alpha*target)
-    return [b,weight]
+  return [b,weight]
 ```
 
 -----------------------------------------------------------------------------------------------------------------------------------------
