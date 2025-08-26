@@ -55,7 +55,7 @@ def fun(x):
    return 1
   else:
     return 0
-#hebb rule
+
 def hebb(weight,df):
   row = len(df)
   b=0
@@ -81,6 +81,7 @@ def fun1(x,theta):
     return 0
   else:
     return -1
+
 def perceptron(weight,df,alpha,epoch):
   epoch_2=0
   b=1
@@ -124,5 +125,5 @@ def adaline(weight,df,alpha,epoch):
         print(b,weight)
         print(y_in)
       epoch_1 +=1
-    return [b,weight]
+  return [b,weight]
 ```
